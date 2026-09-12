@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shegha"
+version = "1.0.0"
+description = "Hybrid cryptography CLI — ElGamal · NTRU · RC5 · Feistel · Silent Trust"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["cryptography", "post-quantum", "ntru", "elgamal", "rc5", "feistel", "cli", "security"]
+
+[project.scripts]
+shegha = "shegha_cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["crypto*"]
