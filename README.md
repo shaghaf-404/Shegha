@@ -1,13 +1,8 @@
-```
-   _____ _               _
-  / ____| |             | |
- | (___ | |__   ___  __ _| |__   __ _
-  \___ \| '_ \ / _ \/ _` | '_ \ / _` |
-  ____) | | | |  __/ (_| | | | | (_| |
- |_____/|_| |_|\___|\__, |_| |_|\__,_|
-                     __/ |
-                    |___/
-```
+ <img width="693" height="247" alt="image" src="https://github.com/user-attachments/assets/5f4c602c-76cf-41a5-a990-403c0dd9ad3b" />
+
+ 
+
+
 
 # Shegha — Hybrid Cryptography CLI
 
@@ -22,6 +17,9 @@
 ## What is Shegha?
 
 Shegha is a command-line cryptography toolkit that establishes **end-to-end encrypted sessions** between a server, clients, and branch servers using a layered, hybrid security model:
+
+<img width="691" height="349" alt="image" src="https://github.com/user-attachments/assets/637d84fc-0f18-43d7-986e-1c64f3716696" />
+
 
 | Layer | Algorithm | Purpose |
 |---|---|---|
